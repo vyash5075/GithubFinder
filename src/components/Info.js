@@ -8,6 +8,10 @@ const UserInfo = () => {
   const { githubUser}  = React.useContext(GithubContext);
   const { public_repos, followers, following} = githubUser;
 
+//githubuser ko bracket me islliye enclose kiya kyunki hme same name chahiye tha wrna naming convention thodi long chli jati
+//const { githubUser } = React.useContext(GithubContext);
+//const { public_repos, followers, following, public_gists } = githubUser;
+  
   const items = [
     {
       id: 1,

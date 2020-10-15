@@ -5,6 +5,10 @@ import styled from 'styled-components';
 const Followers = () => {
   const { followers } = React.useContext(GithubContext);
 
+ // const  {followers}  = React.useContext(GithubContext);  // the object destructuring is done here thats why we wrap in curly braces
+  // const  followers  = React.useContext(GithubContext).followers;
+ 
+
   return (
     <Wrapper>
       <div className='followers'>
