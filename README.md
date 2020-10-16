@@ -9,7 +9,7 @@
 
 [Styled-Components - Main Docs](https://styled-components.com/)
 
-```jsx
+```jsx``
 import styled from "styled-components";
 
 const ReactComponent = () => {
